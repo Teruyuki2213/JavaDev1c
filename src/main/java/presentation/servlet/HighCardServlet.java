@@ -55,7 +55,7 @@ public class HighCardServlet extends HttpServlet {
 		System.out.println(yosou);
 
 		//リクエストにしまうには
-		request.setAttribute("yosou", "彼女ほしい");
+		request.setAttribute("yosou", yosou);
 
 		/************************************************
 		 *             ここまで重要                     *
