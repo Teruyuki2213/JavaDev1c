@@ -21,8 +21,8 @@ import dto.Player;
 /**
  * {@link SampleMemoServlet}
  */
-@WebServlet("/room")
-public class RoomServlet extends HttpServlet {
+@WebServlet("/roompra")
+public class RoomPraServlet extends HttpServlet {
 
 	/**
 	 * {@inheritDoc}
@@ -69,7 +69,7 @@ public class RoomServlet extends HttpServlet {
 		}
 
 		request.setAttribute("resultList", resultList);
-		String view = "/WEB-INF/view/room.jsp";
+		String view = "/WEB-INF/view/roompra.jsp";
 		RequestDispatcher dispatcher = request.getRequestDispatcher(view);
 		dispatcher.forward(request, response);
 	}
